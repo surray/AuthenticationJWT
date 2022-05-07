@@ -20,7 +20,7 @@ const Home =(props) =>{
     
     return(
         <div>
-        <p>{JSON.stringify(json)}</p>
+        <p>You are logged in Successfully and this is your home pages</p>
         <button 
         onClick ={()=>{localStorage.clear();
             props.push.history('/');
