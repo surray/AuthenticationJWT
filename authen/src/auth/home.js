@@ -20,10 +20,10 @@ const Home =(props) =>{
     
     return(
         <div>
-        <p>You are logged in Successfully and this is your home pages</p>
+        <h3>You are logged in Successfully and this is your home page</h3>
         <button 
         onClick ={()=>{localStorage.clear();
-            props.push.history('/');
+            props.history.push('/');
         }}
         className='btn btn-primary'>Logout</button>
         </div>
